@@ -3,12 +3,12 @@ import React, { useState } from "react";
 const Error = () => {
   const [error, setError] = useState(false);
 
-  const errorHandlr = () => {
+  const errorHandler = () => {
     console.log("Error");
     setError(!error);
   };
 
-  functio loopy() {
+  function loopy() {
     while (true) {
       console.log("Hello, world!");
     }
